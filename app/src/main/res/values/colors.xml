@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1C1C1C</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorSuccessToast">#CB05F31D</color>
+    <color name="colorSuccessToastBlue">#136aec</color>
+    <color name="colorSuccessToastWhite">#ffffff</color>
+    <color name="colorErrorToast">#CDFF0404</color>
+    <color name="Blue">#335BFF</color>
+</resources>

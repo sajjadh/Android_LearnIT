@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#0D0D0D"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/displayPhraseList"
+        android:layout_width="fill_parent"
+        android:layout_height="629dp"
+        android:layout_weight="1"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"/>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editTextField"
+            android:layout_width="256dp"
+            android:layout_height="41dp"
+            android:autofillHints="some hints"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/editTextField"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textColor="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:textSize="16dp"
+            android:textColorHint="#ffffff"
+            android:textStyle="italic"
+            app:layout_constraintVertical_bias="0.23"/>
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"
+            android:background="@drawable/home_buttons"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:text="@string/btnEdit"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.107"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.674" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:background="@drawable/home_buttons"
+            android:elevation="@dimen/cardview_default_elevation"
+            android:text="@string/btnSave"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.752"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.674" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

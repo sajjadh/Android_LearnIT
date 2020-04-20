@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Learn IT</string>
+    <string name="btnAddPhrase">Add Phrase</string>
+    <string name="btnDisplayPhrases">Display Phrases</string>
+    <string name="btnEditPhrase">Edit Phrase</string>
+    <string name="btnLanguageSub">Language Subscription</string>
+    <string name="btnTranslate">Translate</string>
+    <string name="btn_addPhrase_Save">Save</string>
+    <string name="txt_addPhrase_inputField">Please A Enter Phrase Here</string>
+    <string name="btnBack">BACK</string>
+    <string name="btnEdit">EDIT</string>
+    <string name="btnSave">SAVE</string>
+    <string name="btnLangUpdate">UPDATE</string>
+    <string name="editTextField"></string>
+    <string name="translatedLanguage">Translated Language Appears Here</string>
+    <string name="translatePhraseTextView">Phrase</string>
+    <string name="btnTranslateSelectedPhrase">Translate</string>
+    <string name="spinnerSubLangListHint">Select A Language</string>
+    <string name="API_Key">06RUuwjXh7pFHyVWvl-K8zoF0yNCA0IEm037p1isZerX</string>
+<!--    <string name="API_Key">jBTdBRMvaDrp1EwBSm45EiNNWhdYkFdT7Aq3mpPtXwsf</string>-->
+<!--    <string name="Translator_URL">https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/47be20e5-a287-4d87-8a64-a99e5a65afbd</string>-->
+    <string name="Translator_URL">https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/7fc202da-2ebd-4364-8a1e-ab681f4d5a4b</string>
+    <string name="btnPronounce">Pronounce</string>
+    <string name="Pronounce_URL">https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/66d91773-71c8-4181-98be-5dd5f3e7264e</string>
+    <string name="Pronounce_API_KEY">mOlJS7X_hUPFT8BcvFUT9rTPtiXFdY1QvpqvZvcM-mzB</string>
+
+
+
+
+</resources>
